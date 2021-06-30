@@ -1,0 +1,21 @@
+#target{
+    font-size: 12px;
+    width:90%;
+    margin-top:15px;
+    margin-left:10px;
+}
+.target_title{
+    margin-left:20px;
+}
+.targets{
+    width:160px;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left:-10px;
+}
+.wrapper2{
+    height:160px;
+    width:100%;
+    overflow: scroll;
+    overflow-x: hidden;
+}

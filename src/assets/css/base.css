@@ -1,0 +1,40 @@
+@import "./normalize.css";
+@import "./components/header.css";
+@import "./components/side/side.css";
+@import "./components/cahrts/charts.css";
+@import "./components/displayarea/displayarea.css";
+
+:root {
+    --color-text: #666;
+    --color-high-text: #ff5777;
+    --color-tint: #ff8198;
+    --color-background: #f7f8fa;
+    --font-size: 12px;
+    --line-height: 1.5;
+}
+html{
+    height:100%;
+    /*隐藏滚动条，当IE下溢出，仍然可以滚动*/
+    -ms-overflow-style:none;
+    /*火狐下隐藏滚动条*/
+    overflow:-moz-scrollbars-none;
+}
+::-webkit-scrollbar{
+    display:none;
+}
+body{
+    height:100%;
+    font-size: var(--font-size);
+    color: var(--color-text);
+    background: var(--color-background);
+}
+#app{
+    width:100%;
+    height:100%;
+    line-height: 100%;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    color:black;
+}

@@ -1,0 +1,50 @@
+#search{
+    text-align: center;
+}
+#search_name{
+    display: block;
+    font-size: 12px;
+    padding-left: 30px;
+    margin-top:15px;
+    margin-bottom: 10px;
+}
+#search_input{
+    height:26px;
+    line-height: 26px;
+    border:1px solid #e8eaed;
+    margin-left:30px;
+}
+#search_input:hover{
+    border:1px solid #3d7cee;
+}
+#utils{
+    width: 40px;
+    height:20px;
+    font-size: 10px;
+}
+.search_title{
+    margin-right:90px;
+    text-align: left;
+    margin-left:-20px;
+}
+.search_div{
+    width:25px;
+    height:25px;
+    border:none;
+}
+.search_input{
+    width:100px;
+    height:23px;
+    border:none;
+    outline:none;
+    font-size:12px;
+}
+.sort{
+    margin-right: 5px;
+    border:1px solid transparent;
+    cursor: pointer;
+}
+.add_computed{
+    border:1px solid transparent;
+    cursor: pointer;
+}
