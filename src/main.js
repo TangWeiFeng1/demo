@@ -16,3 +16,5 @@ new Vue({
   VueDND,
   render: h => h(App)
 }).$mount('#app')
+
+Vue.config.devtools = true

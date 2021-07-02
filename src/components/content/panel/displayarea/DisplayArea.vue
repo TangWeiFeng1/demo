@@ -7,6 +7,7 @@
         </div>
       </transition>
     </draggable>
+    <router-view></router-view>
   </div>
 </template>
 

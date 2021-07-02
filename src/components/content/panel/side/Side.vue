@@ -3,6 +3,7 @@
     <search></search>
     <dimension></dimension>
     <target></target>
+    <router-view></router-view>
   </div>
 </template>
 

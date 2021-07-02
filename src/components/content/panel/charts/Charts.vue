@@ -23,6 +23,7 @@
     <div class="values_info">
       <values></values>
     </div>
+    <router-view></router-view>
   </div>
 </template>
 

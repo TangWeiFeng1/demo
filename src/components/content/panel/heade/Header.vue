@@ -15,6 +15,7 @@
         <a href="#">进入仪表板</a>
       </div>
     </div>
+    <router-view></router-view>
   </div>
 </template>
 
